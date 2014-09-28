@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>hello rnsit</title>
+	<script>
+	       function wishfunction()
+			{
+				var x="";
+				var time=new Date().getHours();
+				if(time<16)
+				{
+				x="good day";}
+				else{
+					x="good evening";
+				    }
+				alert(x);
+			}
+	</script>		
+	</head>
+<body bgcolor="cyan">
+      <p>this is my first html doc</p>
+      <p>creating a table</p>
+  <form method="post">	
+	<table border="1">
+          <tr>
+		<td>username</td>
+		<td><input type="email" id="userid"</t>
+	  </tr>
+	  <tr>
+		<td>password</td>
+		<td><input type="password" id="passwdid"></td>
+	  </tr>
+		</table>
+	  <tr>
+                <td><input type="date"></td>
+	  </tr>	  
+	
+         <input list="gender">
+		<datalist id="gender">
+		       <option value="male">
+			<option value="female">
+		</datalist>
+		<br />
+          <input type="submit" value="submit" id="btn_sbt">
+	        <br />
+          <input type="button" value="wish" id="btn_wish" onclick="wishfunction()"/>
+    </form>
+       <a href="http://www.google.com">go to google</a>
+       <div>
+	<img src="rnshety.jpg">rnshety-chairman rnsit</img>
+	</div>
+	</body>
+</html>
